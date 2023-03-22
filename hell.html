@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet"href="styles.css">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello!</title>
+
+    <h1>
+        <div>
+            <a href="https://naver.com"> Welecome to web page! </a>
+        </div>
+    </h1>
+    <h2>
+        <div>
+            Hello World!
+        </div>
+    </h2>
+</head>
+
+<body>
+    <form>
+        <input type="text" placeholder="이름" name="name">
+        <input type="submit">
+        <input name="password" type="password" placeholder="Password">
+    </form>
+    <form>
+        <input name="color" type="radio" value="red"> Red
+        <input name="color" type="radio" value="blue"> Blue
+        <input name="color" type="radio" value="green"> Green
+        <input name="color" type="radio" value="Yellow"> Yellow
+    </form>
+    <form>
+        <input name="movie" list="movies" placeholder="현재 상영중">
+        <datalist id="movies">
+            <option value="스즈메의 문단속">
+            <option value="아임 히어로 더 파이널">
+            <option value="귀멸의 칼날-상현집결">
+            <option value="소울메이트">
+        </datalist>
+    </form>
+
+</body>
+
+<body>
+    <table>
+        <thead>
+            <th>Ocean</th>
+            <th>Average Depth</th>
+            <th>Maximum Depth</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pacific Ocean</td>
+                <td>4,280 m</td>
+                <td>10,911 m</td>
+            </tr>
+            <tr>
+                <td>Atlantic Ocean</td>
+                <td>3,646 m</td>
+                <td>8,486 m</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+<body>
+    <style>
+        ol>ul {
+            color: blueviolet;
+        }
+    </style>
+
+    <ol class="greens">
+        <li>
+            First list item
+        </li>
+        <li>
+            Second list item
+        </li>
+    </ol>
+    <ul class="greens">
+        <li id="claq">
+            New item
+        </li>
+        <li>
+            Old item
+        </li>
+    </ul>
+
+    <ol>
+
+        <li>Ordered list item 1</li>
+        <li>Ordered list item 2</li>
+        <ol>
+            <li>Ordered list item 1</li>
+            <li>Ordered list item 2</li>
+            <ul>
+                <li>(Unordered) Sub-list item 1</li>
+                <li>(Unordered) Sub-list item 2</li>
+            </ul>
+        </ol>
+        <ul>
+            <li>(Unordered) Sub-list item 1</li>
+            <li>(Unordered) Sub-list item 2</li>
+            <ol>
+                <li>(Ordered) Sub-sub-list item 1</li>
+                <li>(Ordered) Sub-sub-list item 2</li>
+                <li>(Ordered) Sub-sub-list item 3</li>
+            </ol>
+            <li>(Unordered) Sub-list item 3</li>
+        </ul>
+        <li>Ordered list item 3</li>
+    </ol>
+</body>
+
+<body>
+    <style>
+    button {
+        width: 200px;
+        height: 50px;
+        font-size: 24px;
+        background-color: green;
+        text-align: center;
+    }
+    button:hover {
+        background-color: darkcyan;
+        color: rgb(255, 255, 255);
+    }
+    </style>
+    <button>Click me!</button>
+</body>
+
+<body>
+    <style>
+        p {
+            padding: 15px;
+            font-size: 15px;
+        }
+        p::first-letter {
+            color: rgb(206, 132, 34);
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .thankyou {
+            font-size: 10px;    
+            margin: 10px;
+            padding: 10px;
+            background-color:white;
+        }
+        .thankyou::first-line {
+            color: cadetblue;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    </style>
+    <p>
+        2023학년도 교양 교육과정 이수 관련 안내 사항을 다음과 같이 알려드리니 수강신청 및 교양 학점 이수에 참고하시기 바랍니다.
+        2023 교육과정 편람은 2월 중 대학홈페이지(학사안내>교육과정) 게시 및 책자 배부 예정입니다.
+        도서관 3월 이용교육 일정을 안내드립니다.
+    </p>
+    <div class="thankyou">
+        우리 대학 제2학생회관(사림관) 옥상에 새롭게 조성된 사림곳 개장식을 아래와 같이 개최하오니 대학 구성원 여러분들의 많은 참석 바랍니다.
+    </div>
+    <ul>
+        <li>일시: '23. 3. 20.(월) 17:30 ~ 18:30</li>
+        <li>장소: 창원대학교 사림관 옥상(사림곳)</li>
+    </ul>
+</body>
+<body>
+    <style>
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #container > div {
+            background-color: green;
+            width: 200px;
+            font-size: 20px;
+            margin: 20px;
+            padding: 20px;
+        }
+        </style>
+
+    <div id="container">
+        <div>1. 플렉스박스 효과를 위한 아무 텍스트</div>
+        <div>2. 플렉스박스 효과를 위한 아무 텍스트</div>
+        <div>3. 플렉스박스 효과를 위한 아무 텍스트</div>
+        <div>4. 플렉스박스 효과를 위한 아무 텍스트</div>
+        <div>5. 플렉스박스 효과를 위한 아무 텍스트</div>
+        <div>6. 플렉스박스 효과를 위한 아무 텍스트</div>
+        <div>7. 플렉스박스 효과를 위한 아무 텍스트</div>
+    </div>
+</body>
+<body>
+    <style>
+    #grid {
+        background-color: black;
+        padding: 20px;
+        column-gap: 20px;
+        row-gap: 10px;
+        grid-template-columns: 150px 200px auto;
+        display: grid;
+    }
+    .grid-item {
+        background-color: yellow;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+    </style>
+    <div id="grid">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+    </div>
+</body>
+<body>
+    <div class="success">This is a success message.</div>    <div class="warning">This is a warning message.</div>    <div class="error">This is an error message.</div>
+</body>
+</html>
