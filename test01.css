@@ -1,0 +1,30 @@
+@media (min-width:350px) {
+    .banner {
+    color: rgb(6, 158, 158);
+    text-align: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid rgb(6, 158, 158);
+    background-color: rgb(196, 248, 248);
+    }
+
+}
+@media (max-width:349px) {
+    .banner {
+    color: rgb(6, 158, 158);
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid rgb(6, 158, 158);
+    background-color: rgb(196, 248, 248);
+    }
+
+}
+
+.banner:hover {
+    color: rgb(196, 248, 248);
+    text-align: center;
+    border: 3px solid rgb(196, 248, 248);
+    background-color: rgb(6, 158, 158);
+
+}
